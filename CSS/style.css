@@ -1,0 +1,37 @@
+header {
+    color: aqua;
+}
+h2 {
+    color: crimson;
+    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
+        /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+}
+h3 {
+    color: crimson;
+    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
+      /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+    
+}
+body{ background: #EACE6B;}
+
+  p{
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+
+
+    color: aqua;
+} 
+.article  {
+    width: 800px;
+   
+}
+a{
+    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
+    /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+    color: crimson;
+}
+/* ol li{
+    color: aqua;
+}  */
+
+/* 第三步，把上面ol li的注释去掉，然后git commit */
