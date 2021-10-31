@@ -1,37 +1,87 @@
 header {
-    color: aqua;
+    color:#22181c;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+*{
+    padding: 0;
+    margin: 0;
 }
 h2 {
-    color: crimson;
-    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
-        /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+    color: #902D41;
+     font-family:Arial, Tahoma,Verdana, sans-serif; 
+        
 }
 h3 {
-    color: crimson;
-    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
-      /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+    color: #902D41;
+     font-family:Arial, Tahoma,Verdana, sans-serif; 
+      
     
 }
-body{ background: #EACE6B;}
+body{ background: #f6e8ea ;}
 
   p{
-    /* font-family:Georgia, 'Times New Roman', Times, serif; */
-    /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
+     font-family:Georgia, 'Times New Roman', Times, serif; 
+   
 
 
-    color: aqua;
+    color: #312f2f;
+    border: 1ex solid rgb(245, 66, 11);
 } 
 .article  {
     width: 800px;
    
 }
 a{
-    /* font-family:Arial, Tahoma,Verdana, sans-serif; */
-    /* 第二步 把这行字体的注释去除掉，然后你重新git commit */
-    color: crimson;
+     font-family:Arial, Tahoma,Verdana, sans-serif;
+    
+    color: #ef626c;
 }
-/* ol li{
-    color: aqua;
-}  */
+ ol li{
+    color: #312f2f;
+    border: 1ex solid rgb(233, 59, 16);
+}  
 
-/* 第三步，把上面ol li的注释去掉，然后git commit */
+nav ul{
+    position: fixed;
+    top: 0;
+    background-color:#22181c ;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     background: blue;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    border: 1ex solid rgb(197, 209, 23);
+    background: blue;
+} 
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 0 20px;
+    color: #ef626c;
+    line-height: 40px;
+    font-size: 22px;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    line-height: 40px;
+    font-size: 22px;
+    background-color: #ef626c;
+    text-decoration: none;
+}  
+ 
+.ri ul{
+    list-style: none;
+}
